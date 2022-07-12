@@ -16,7 +16,7 @@ namespace GameSimulation
             Gamer gamer = new Gamer { Id = 1, FirstName = "Ümmühan", LastName = "Kurt", DateOfBirth = new DateTime(1999, 8, 22), NationalityId = "22222222222" };
             BaseSalesManager baseSalesManager = new GameSalesManager();
             baseSalesManager.Sell(gamer);
-            IGamerService gamerService = new GamerManager(new GamerCheckManager());
+            IGamerService gamerService = new GamerManager(new NewUserCheck());
             gamerService.Add(gamer);
             IOfferService offerService = new OfferManager();
             offerService.AddOffer();

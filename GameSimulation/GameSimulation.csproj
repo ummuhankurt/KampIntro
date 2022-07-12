@@ -52,6 +52,7 @@
     <Compile Include="Concrete\GamerCheckManager.cs" />
     <Compile Include="Concrete\GamerManager.cs" />
     <Compile Include="Concrete\GameSalesManager.cs" />
+    <Compile Include="Concrete\NewUserCheck.cs" />
     <Compile Include="Concrete\OfferManager.cs" />
     <Compile Include="Entities\Gamer.cs" />
     <Compile Include="Program.cs" />

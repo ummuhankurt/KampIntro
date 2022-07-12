@@ -10,6 +10,7 @@ namespace GameSimulation.Concrete
 {
     public class GamerManager : IGamerService
     {
+
         IGamerCheckService _gamerCheckService;
         public GamerManager(IGamerCheckService gamerCheckService)
         {

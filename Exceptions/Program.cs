@@ -8,6 +8,7 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
+
             ActionDemo(); // Özel bir tipi döndürmeyen kod blokları için kullanılır. 
             // Func<int> parametre almayan, int değer döndüren metoda delege ediyor.
             Func<int> getRandomNumber = RandomNumber;

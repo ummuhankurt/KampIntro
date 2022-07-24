@@ -14,7 +14,6 @@ namespace AOPDemo.ConsoleUI
     {
         static void Main(string[] args)
         {
-            // console ui.
             IProductService productService = new ProductManager(new EfProductDal());
             foreach (var item in productService.GetAll())
             {

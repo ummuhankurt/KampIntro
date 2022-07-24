@@ -6,6 +6,7 @@ namespace ClassIntro
     {
         static void Main(string[] args)
         {
+            
             Kurs kurs1 = new Kurs();
             kurs1.KursAdi = "C#";
             kurs1.KursunEgitmeni = "Engin Demiroğ";
@@ -38,7 +39,7 @@ namespace ClassIntro
             }
         }
     }
-
+    // Entitiy Classç
     class Kurs
     {
         public string KursAdi { get; set; }

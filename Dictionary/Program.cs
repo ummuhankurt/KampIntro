@@ -12,7 +12,6 @@ namespace Dictionary
             1) Dictionary sınıfı içinde sizin belirleyeceğiniz bir key e uygun olarak değer saklar.Zorunlulugu var.
             2) Key türünü belirlemeniz şart (string,int, decimal,float...)
              */
-
             Dictionary<string, int> adYas = new Dictionary<string, int>();
             // veri ekliyoruz.
             adYas.Add("Amy", 25);

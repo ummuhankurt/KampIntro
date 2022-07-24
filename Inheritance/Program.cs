@@ -2,7 +2,6 @@
 
 namespace Inheritance
 {
-
     // inheritance -------> class 
     // implements---------> interface
     class Program

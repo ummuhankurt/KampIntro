@@ -8,6 +8,7 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
+
             List<Category> categories = new List<Category>
             {
                 new Category{CategoryId = 1, CategoryName ="Bilgisayar"},

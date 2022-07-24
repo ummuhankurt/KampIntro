@@ -59,6 +59,7 @@ namespace InterfacesDemo
 
     class Manager : IWorker, IEat, ISalary
     {
+
         public void Eat()
         {
             Console.WriteLine("Manager eat.");

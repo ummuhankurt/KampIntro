@@ -71,17 +71,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkDemo", "Enti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{13B45203-5D83-43FB-8951-45868B13FBEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{0790AD60-4767-4904-BDC1-8B12E2EC5851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{0790AD60-4767-4904-BDC1-8B12E2EC5851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{BB23440B-1EB5-4046-A6AB-4A6A496DCC78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{BB23440B-1EB5-4046-A6AB-4A6A496DCC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{F75A0ABD-A7A8-43B5-92DF-88353CA9CE05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{F75A0ABD-A7A8-43B5-92DF-88353CA9CE05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actions", "Actions\Actions.csproj", "{035D3E42-5641-4216-851E-441F06FDA00D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actions", "Actions\Actions.csproj", "{035D3E42-5641-4216-851E-441F06FDA00D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDemo", "EventDemo\EventDemo.csproj", "{168DCB74-AFB9-4C97-9E7C-2819461B835B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDemo", "EventDemo\EventDemo.csproj", "{168DCB74-AFB9-4C97-9E7C-2819461B835B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOPDemo", "AOPDemo\AOPDemo.csproj", "{2FCCA737-F22C-4657-AF09-EB4ECEB80879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOPDemo", "AOPDemo\AOPDemo.csproj", "{2FCCA737-F22C-4657-AF09-EB4ECEB80879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

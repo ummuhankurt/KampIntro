@@ -6,8 +6,6 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-            //Encapsulation - Bir model classı'na yeni bir özellik eklendiği zaman diğer sayfalar patlamaz.
-            // Urun classına StokAdedi diye yeni bir özellik ekledik. Ve diğer sayfalar hata vermedi.
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;

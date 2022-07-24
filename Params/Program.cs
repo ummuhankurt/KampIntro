@@ -7,7 +7,8 @@ namespace Params
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(999,5, 6, 6, 5, 6, 5, 8, 9, 9, 8, 8, 8));
+
+            Console.WriteLine(Add(999,5, 6, 6, 5, 6, 5, 8, 9, 9, 8, 8, 8,7));
         }
         static int Add(int number , params int[] numbers)
         {

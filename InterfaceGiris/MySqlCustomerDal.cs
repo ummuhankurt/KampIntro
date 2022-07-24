@@ -13,12 +13,12 @@ namespace InterfaceGiris
 
         public void Delete()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Mysql' den silindi");
         }
 
         public void Update()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Mysql'de güncellendi");
         }
     }
 }

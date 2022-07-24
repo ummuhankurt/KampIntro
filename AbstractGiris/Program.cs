@@ -8,6 +8,7 @@ namespace AbstractGiris
 {
     class Program
     {
+        // Abstract class example.
         static void Main(string[] args)
         {
             Ornek ornek = new Calisma();

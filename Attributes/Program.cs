@@ -6,6 +6,7 @@ namespace Attributes
     {
         static void Main(string[] args)
         {
+            
             Customer customer = new Customer()
             {
                 Id = 1,
@@ -16,6 +17,7 @@ namespace Attributes
             customerDal.Add(customer);
         }
     }
+    // Attributes
     [ToTable("TblCustomers")]
     [ToTable("Customers")]
     class Customer

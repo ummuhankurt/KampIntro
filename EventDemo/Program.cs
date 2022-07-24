@@ -6,6 +6,7 @@ namespace EventDemo
     {
         static void Main(string[] args)
         {
+
             Product harddisk = new Product(50) { ProductName = "Harddisk"};
             Product gsm = new Product(50) { ProductName = "Telefon" };
             gsm.StockControlEvent += Gsm_StockControlEvent;

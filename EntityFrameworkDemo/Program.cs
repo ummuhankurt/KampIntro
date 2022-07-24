@@ -11,7 +11,6 @@ namespace EntityFrameworkDemo
         {
             // ADO.NET -> Veritabanı kontrol kütüphanesi.Veri listeleme,ekleme,silme,güncelleme, bıdıbıdıdbıdı
             // Entity Framework bir ORM -> Object Relational Mapping(Nesne ilişki bağdaştırması). Nesnelerin veritabanıyla bağdaştırılması.
-
             ProductManager productManager = new ProductManager(new EfProductDal());
             //productManager.Delete(new Product {ProductId = 1, CategoryId = 2, ProductName = "Masa", QuantityPerUnit = "56", UnitPrice = 500, UnitsInStock = 5 });
             // id si  1 olan ürünün veritabanında ilişkisi olduğu için silemezsin.Config hatası alırsın.

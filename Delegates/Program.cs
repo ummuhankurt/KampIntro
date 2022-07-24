@@ -4,6 +4,7 @@ namespace Delegates
 {
     class Program
     {
+        // Delegates.
         public delegate void MyDelegate(); // void döndüren ve parametre almayan metodlara delegelik yapıyor.
         public delegate string MyDelegate2(string text);
         public delegate void MyDelegate3(string text);

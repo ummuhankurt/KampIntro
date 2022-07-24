@@ -4,6 +4,7 @@ namespace Constructors
 {
     class Program
     {
+        //Constructor method logic.
         static void Main(string[] args)
         {
             Customer customer = new Customer() { Id = 1, FirstName = "Engin",LastName = "Demirog",City = "Ankara"};

@@ -27,10 +27,6 @@ namespace DegerVeReferansTipler
             int number2 = 100;
             Console.WriteLine(Add(ref number1,number2));
             Console.WriteLine("Number1 is {0}",number1);
-
-
-            int number3 = 50;
-            refOut(out number3);
         }
         static int Add(ref int number1, int number2)
         {

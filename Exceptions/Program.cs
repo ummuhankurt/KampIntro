@@ -35,7 +35,6 @@ namespace Exceptions
                 Find();
             });
         }
-
         public static void Find()
         {
             List<string> isimler = new List<string> { "Ali", "Ayşe", "Mehmet" };

@@ -6,7 +6,6 @@ namespace Donguler
     {
         static void Main(string[] args)
         {
-            // arrayler
             string[] kurslar = new string[] { "Yazılım Geliştirici Geliştirme Kampı",
                 "Programlamaya Başlangıç İçin Temel Kurs","Python","Java","C#"};
 

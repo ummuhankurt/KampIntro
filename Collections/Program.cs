@@ -7,7 +7,7 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-            // Dizi oluşturduktan sonra yeni eleman ekleyemezsin. Bu yüzden koleksiyonlara ihtiyaç duyarız.
+            // You cannot add new elements after creating an array. That's why we need collections.
             List<string> isimler = new List<string> { "Engin","Murat","Kerem","Halil"};
             Console.WriteLine(isimler[0]);
             Console.WriteLine(isimler[1]);

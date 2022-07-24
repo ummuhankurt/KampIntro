@@ -4,6 +4,7 @@ namespace Generics
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             MyList<string> sehirler = new MyList<string>();

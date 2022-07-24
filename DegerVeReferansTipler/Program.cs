@@ -20,10 +20,28 @@ namespace DegerVeReferansTipler
 
             // int,decimal,float,double, bool -> Değer Tip.
             // array, class,interface -> Referans Tip.
-
             // Stack -> Değer tipler
             // Heap -> Referans tipler.
 
+            int number1 = 20;
+            int number2 = 100;
+            Console.WriteLine(Add(ref number1,number2));
+            Console.WriteLine("Number1 is {0}",number1);
+
+
+            int number3 = 50;
+            refOut(out number3);
+        }
+        static int Add(ref int number1, int number2)
+        {
+            number1 = 30;
+            return number1 + number2;
+        }
+
+        static int refOut(out int number3)
+        {
+            number3  = 50;
+            return number3;
         }
     }
 }

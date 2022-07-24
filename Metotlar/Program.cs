@@ -40,8 +40,14 @@ namespace Metotlar
             sepetManager.Ekle2("Armut", "Yeşil", 12,10);
             sepetManager.Ekle2("Elma", "Yeşil Elma", 12,9);
             sepetManager.Ekle2("Karpuz","Diyarbakır Karpuzu",12,8);
-
+            Add(5); // Hiç parametre vermezsek kızar. x 'e gelen bir değer yok çünkü.
+        }
+        // Default parametreli metodlar. Default değerler her zaman metodun sonunda yer alır.
+        static int Add(int x, int number1 = 0, int number2 = 5)
+        {
+            return number1 + number2;
         }
     }
+
 }
 // Don't repeat yourself - DRY - Clean Code - Best Practise

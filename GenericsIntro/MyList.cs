@@ -4,6 +4,7 @@ using System.Text;
 
 namespace GenericsIntro
 {
+
     // Çalışacağın veri tipi -> T
     // Ben MyList'imde T ile çalışmak istiyorum demek.
     // Programcı bu class'ı new'lerken hangi tipi gönderecekse T o olacak.
